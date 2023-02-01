@@ -1,4 +1,4 @@
-/*
+package edu.kit.programming.encapsulation;/*
  * Theoretisch Copy Constructor unnötig, da Objekt immutable (unveränderbar) ist.
  * Vermerke im Klassen JavaDoc falls Instanzen immutable sind.
  */

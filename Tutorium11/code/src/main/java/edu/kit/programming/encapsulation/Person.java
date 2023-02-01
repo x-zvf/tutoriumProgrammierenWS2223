@@ -1,3 +1,5 @@
+package edu.kit.programming.encapsulation;
+
 public class Person {
   private String name;
   private int age;

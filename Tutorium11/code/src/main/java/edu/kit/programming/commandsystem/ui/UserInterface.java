@@ -11,10 +11,9 @@ import java.util.Scanner;
 public class UserInterface {
 
     private ApplicationState state;
-    List<Command> commands;
+    List<Command> commands = List.of(new QuitCommand());
     public UserInterface(ApplicationState state) {
         this.state = state;
-        commands = List.of(new QuitCommand());
     }
 
     public void run() {

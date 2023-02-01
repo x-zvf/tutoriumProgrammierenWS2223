@@ -1,3 +1,7 @@
+package edu.kit.programming.encapsulation;
+
+import edu.kit.programming.encapsulation.Person;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
@@ -33,7 +37,7 @@ public class Datenkapselung {
    * Shallow Copy hier ausreichend, da String immutable.
    */
   public Collection<String> getList() {
-    List<String> tempList = new ArrayList<String>();
+    List<String> tempList = new ArrayList<>();
     Collections.copy(this.list, tempList); // shallow copy
     return tempList;
   }
